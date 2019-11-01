@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "请输入昵称"; ObjectID = "RKJ-cv-1fb"; */
+"RKJ-cv-1fb.text" = "请输入昵称";
+
+/* Class = "UITextField"; placeholder = "请输入昵称"; ObjectID = "inT-JQ-Ilk"; */
+"inT-JQ-Ilk.placeholder" = "请输入昵称";
+
+/* Class = "UIButton"; normalTitle = "保存"; ObjectID = "xYp-88-fZy"; */
+"xYp-88-fZy.normalTitle" = "保存";

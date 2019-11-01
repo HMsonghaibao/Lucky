@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "余额"; ObjectID = "JQB-bF-o56"; */
+"JQB-bF-o56.text" = "Balance";
+
+/* Class = "UIButton"; normalTitle = " 提币"; ObjectID = "UeU-tF-NwH"; */
+"UeU-tF-NwH.normalTitle" = " Withdraw";
+
+/* Class = "UILabel"; text = "(总资产)"; ObjectID = "dtr-vE-Ukd"; */
+"dtr-vE-Ukd.text" = "(Total assets)";
+
+/* Class = "UIButton"; normalTitle = " 充值"; ObjectID = "e40-kj-BPG"; */
+"e40-kj-BPG.normalTitle" = " Recharge";
+
+/* Class = "UILabel"; text = "实时价(￥)"; ObjectID = "fnr-wk-NH4"; */
+"fnr-wk-NH4.text" = "Real-time price(￥)";
+
+/* Class = "UILabel"; text = "名称"; ObjectID = "mIK-XZ-Hxg"; */
+"mIK-XZ-Hxg.text" = "Name";
+
+/* Class = "UILabel"; text = "￥0.00"; ObjectID = "nxs-Wa-whd"; */
+"nxs-Wa-whd.text" = "￥0.00";
+
+/* Class = "UIButton"; normalTitle = " 兑换"; ObjectID = "yqA-9Q-OJI"; */
+"yqA-9Q-OJI.normalTitle" = " Exchange";

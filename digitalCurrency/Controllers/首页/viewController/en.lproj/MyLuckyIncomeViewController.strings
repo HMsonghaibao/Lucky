@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "可获收益TV"; ObjectID = "0FK-4S-7rA"; */
+"0FK-4S-7rA.text" = "Gainable income TV";
+
+/* Class = "UILabel"; text = "日期"; ObjectID = "Mdw-N6-sZk"; */
+"Mdw-N6-sZk.text" = "Date";
+
+/* Class = "UILabel"; text = "类型"; ObjectID = "SeI-vk-POr"; */
+"SeI-vk-POr.text" = "Type";
+
+/* Class = "UILabel"; text = "可获收益TV"; ObjectID = "bdr-Nv-nhW"; */
+"bdr-Nv-nhW.text" = "Obtained income LKC";
+
+/* Class = "UILabel"; text = "金额(lucky)"; ObjectID = "fq8-mN-MMu"; */
+"fq8-mN-MMu.text" = "Amount(LKC)";
+
+/* Class = "UILabel"; text = "可获收益TV"; ObjectID = "nxs-Wa-whd"; */
+"nxs-Wa-whd.text" = "Residual income TV";

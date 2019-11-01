@@ -1,0 +1,166 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - BaiduMobStat (5.0.5)
+  - Bugly (2.5.0)
+  - CocoaAsyncSocket (7.6.3)
+  - FLAnimatedImage (1.0.12)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - HMQRCodeScanner (1.0.6)
+  - IQKeyboardManager (6.4.0)
+  - ISVImageScrollView (0.1.2)
+  - JCore (2.1.1)
+  - JPImageresizerView (1.1.1)
+  - JPush (3.2.2):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - Masonry (1.1.0)
+  - MJExtension (3.1.0)
+  - MJRefresh (3.2.0)
+  - MMLayout (0.2.0)
+  - mob_sharesdk (4.3.0.1):
+    - mob_sharesdk/ShareSDK (= 4.3.0.1)
+    - MOBFoundation
+  - mob_sharesdk/ShareSDK (4.3.0.1):
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/QQ (4.3.0.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo (4.3.0.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/WeChat (4.3.0.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - MOBFoundation (3.2.4)
+  - PGDatePicker (2.6.9):
+    - PGPickerView
+  - PGPickerView (1.3.8)
+  - ReactiveObjC (3.1.1)
+  - SDAutoLayout (2.1.9)
+  - SDWebImage (5.1.0):
+    - SDWebImage/Core (= 5.1.0)
+  - SDWebImage/Core (5.1.0)
+  - Toast (4.0.0)
+  - TXIMSDK_iOS (4.4.900)
+  - TXIMSDK_TUIKit_iOS (4.4.900):
+    - ISVImageScrollView
+    - MMLayout
+    - ReactiveObjC
+    - SDWebImage
+    - Toast
+    - TXIMSDK_iOS
+  - UMengAnalytics-NO-IDFA (4.2.5)
+  - VTMagic (1.2.4):
+    - VTMagic/Core (= 1.2.4)
+  - VTMagic/Core (1.2.4)
+  - YBPopupMenu (1.1.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BaiduMobStat
+  - Bugly
+  - CocoaAsyncSocket
+  - FLAnimatedImage (~> 1.0.12)
+  - FMDB
+  - HMQRCodeScanner
+  - IQKeyboardManager
+  - JPImageresizerView
+  - JPush
+  - Masonry
+  - MJExtension
+  - MJRefresh
+  - mob_sharesdk
+  - mob_sharesdk/ShareSDKPlatforms/QQ
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+  - mob_sharesdk/ShareSDKPlatforms/WeChat
+  - PGDatePicker
+  - SDAutoLayout (~> 2.1.7)
+  - SDWebImage
+  - Toast
+  - TXIMSDK_TUIKit_iOS
+  - UMengAnalytics-NO-IDFA
+  - VTMagic
+  - YBPopupMenu (~> 1.1.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - HMQRCodeScanner
+    - mob_sharesdk
+    - MOBFoundation
+  trunk:
+    - AFNetworking
+    - BaiduMobStat
+    - Bugly
+    - CocoaAsyncSocket
+    - FLAnimatedImage
+    - FMDB
+    - IQKeyboardManager
+    - ISVImageScrollView
+    - JCore
+    - JPImageresizerView
+    - JPush
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - MMLayout
+    - PGDatePicker
+    - PGPickerView
+    - ReactiveObjC
+    - SDAutoLayout
+    - SDWebImage
+    - Toast
+    - TXIMSDK_iOS
+    - TXIMSDK_TUIKit_iOS
+    - UMengAnalytics-NO-IDFA
+    - VTMagic
+    - YBPopupMenu
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BaiduMobStat: 467b905fa4bbba1094f6fdeba7a55ff51adf1161
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  HMQRCodeScanner: 8db2d317c0e5cbe3b4709fe2b9f26c107d66554e
+  IQKeyboardManager: fcef267266379c003181fc3592f6bdb8bf4db839
+  ISVImageScrollView: ba511d12a1661b40feb8921309c0854bf93ec749
+  JCore: 4072327557f0b83cc22dd4041f2f839740c0077b
+  JPImageresizerView: 56d088ccc67c7e86b0bdceeebb2d420928add4b2
+  JPush: 0e9088c85c73275629facc311fe5992dfac36eeb
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 6b69b3bef2864fd550ce1a184eda219e321209d2
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  MMLayout: 3fb59d58eeb8656c64e61d550fb0088e10666c11
+  mob_sharesdk: 949a0550f52e51c6c0f571649120bce75e06bf6c
+  MOBFoundation: dd8f319dde9331590d515a1676d27baccc0070e5
+  PGDatePicker: 88960f3760edac96219c10320f25536ad31d0f44
+  PGPickerView: 037acfb132a4c8054fb43aaa59a5ff50c7f747f5
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDAutoLayout: 6b6f4db0d009dfc46cef14ef710dbb164e86616c
+  SDWebImage: fb387001955223213dde14bc08c8b73f371f8d8f
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  TXIMSDK_iOS: 7b4b764c980ff91a2167bb0179775c245838f7c8
+  TXIMSDK_TUIKit_iOS: c6ba8a30b963e2a076fdaacc5ac42e5ad43f18c0
+  UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
+  VTMagic: b49e5f456dbcbfd9a3588ba92417233a105bc193
+  YBPopupMenu: 6efb286385d95ba5f97c58b8464ec873645e8764
+
+PODFILE CHECKSUM: d435d23807d281c1edae3327d99fbaa1cb56c9a1
+
+COCOAPODS: 1.8.0.beta.1

@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "昵称"; ObjectID = "Mdw-N6-sZk"; */
+"Mdw-N6-sZk.text" = "昵称";
+
+/* Class = "UILabel"; text = "业绩"; ObjectID = "SeI-vk-POr"; */
+"SeI-vk-POr.text" = "业绩";
+
+/* Class = "UILabel"; text = "等级"; ObjectID = "fq8-mN-MMu"; */
+"fq8-mN-MMu.text" = "等级";
+
+/* Class = "UILabel"; text = "(总业绩)"; ObjectID = "nxs-Wa-whd"; */
+"nxs-Wa-whd.text" = "(总业绩)";
+
+/* Class = "UILabel"; text = "0.00"; ObjectID = "vPt-YY-3UN"; */
+"vPt-YY-3UN.text" = "0.00";

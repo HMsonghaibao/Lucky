@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="95" id="KGk-i7-Jjw" customClass="BiaogeTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="95"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="94.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BE3-CK-JsH">
+                        <rect key="frame" x="15" y="15" width="290" height="64.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JCj-vD-Du2">
+                                <rect key="frame" x="0.0" y="0.0" width="290" height="64.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30天矿机" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Gl-fQ-JdD">
+                                <rect key="frame" x="0.0" y="0.0" width="52" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7Gl-fQ-JdD" firstAttribute="leading" secondItem="JCj-vD-Du2" secondAttribute="leading" id="5Y7-Qx-u2G"/>
+                            <constraint firstAttribute="trailing" secondItem="JCj-vD-Du2" secondAttribute="trailing" id="CiA-X3-3aY"/>
+                            <constraint firstAttribute="bottom" secondItem="JCj-vD-Du2" secondAttribute="bottom" id="FaE-I5-Meu"/>
+                            <constraint firstItem="JCj-vD-Du2" firstAttribute="top" secondItem="BE3-CK-JsH" secondAttribute="top" id="JGX-dI-oIi"/>
+                            <constraint firstItem="7Gl-fQ-JdD" firstAttribute="top" secondItem="JCj-vD-Du2" secondAttribute="top" id="hat-Zm-Bcu"/>
+                            <constraint firstItem="JCj-vD-Du2" firstAttribute="leading" secondItem="BE3-CK-JsH" secondAttribute="leading" id="zOB-sN-mUW"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.032948847860097885" green="0.089284725487232208" blue="0.13916447758674622" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="BE3-CK-JsH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="1cj-ms-z2H"/>
+                    <constraint firstAttribute="trailing" secondItem="BE3-CK-JsH" secondAttribute="trailing" constant="15" id="1g8-yM-cSa"/>
+                    <constraint firstAttribute="bottom" secondItem="BE3-CK-JsH" secondAttribute="bottom" constant="15" id="K7z-hc-k5t"/>
+                    <constraint firstItem="BE3-CK-JsH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="W1S-VK-AEj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <point key="canvasLocation" x="139.13043478260872" y="117.52232142857142"/>
+        </tableViewCell>
+    </objects>
+</document>

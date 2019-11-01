@@ -1,0 +1,51 @@
+
+/* Class = "UILabel"; text = "1%"; ObjectID = "29m-Rr-VQ6"; */
+"29m-Rr-VQ6.text" = "1%";
+
+/* Class = "UILabel"; text = "VT"; ObjectID = "43i-lT-hnc"; */
+"43i-lT-hnc.text" = "VT";
+
+/* Class = "UILabel"; text = "1.2%"; ObjectID = "AJS-ze-9xd"; */
+"AJS-ze-9xd.text" = "1.2%";
+
+/* Class = "UILabel"; text = "充值"; ObjectID = "K9G-1L-bI0"; */
+"K9G-1L-bI0.text" = "Recharge";
+
+/* Class = "UILabel"; text = "10000VT等值DV"; ObjectID = "Sbj-6d-Ou3"; */
+"Sbj-6d-Ou3.text" = "10000VT等值DV";
+
+/* Class = "UILabel"; text = " 分红收益：100USDT 起投，投资无上限，系统自动放\n大 2 倍 USDT杠杆并换算成等值NBTC加入总资产，每天\n按4‰的静态速度等比释放为锁仓资产;"; ObjectID = "TKb-2Q-rPj"; */
+"TKb-2Q-rPj.text" = " 分红收益：100USDT 起投，投资无上限，系统自动放\n大 2 倍 USDT杠杆并换算成等值NBTC加入总资产，每天\n按4‰的静态速度等比释放为锁仓资产;";
+
+/* Class = "UILabel"; text = "得"; ObjectID = "Tn2-yI-oya"; */
+"Tn2-yI-oya.text" = "Get";
+
+/* Class = "UILabel"; text = "静态收益比例:"; ObjectID = "VcN-Tp-7t5"; */
+"VcN-Tp-7t5.text" = "Static return ratio:";
+
+/* Class = "UILabel"; text = "60VT等值DV"; ObjectID = "aWQ-5p-D2N"; */
+"aWQ-5p-D2N.text" = "60VT等值DV";
+
+/* Class = "UILabel"; text = "每天静态收益:"; ObjectID = "gA1-XQ-gK0"; */
+"gA1-XQ-gK0.text" = "Static income per day:";
+
+/* Class = "UILabel"; text = "10000DV"; ObjectID = "gq0-Wp-6iX"; */
+"gq0-Wp-6iX.text" = "10000DV";
+
+/* Class = "UILabel"; text = "10000"; ObjectID = "kf4-Vv-S3A"; */
+"kf4-Vv-S3A.text" = "10000";
+
+/* Class = "UILabel"; text = "10000VT"; ObjectID = "qLG-Oc-x2O"; */
+"qLG-Oc-x2O.text" = "10000VT";
+
+/* Class = "UILabel"; text = "3倍杠杆收益:"; ObjectID = "toY-lI-Rcp"; */
+"toY-lI-Rcp.text" = "3 times leveraged income:";
+
+/* Class = "UILabel"; text = "直推加速奖励:"; ObjectID = "u0g-Jx-dHI"; */
+"u0g-Jx-dHI.text" = "Direct push acceleration reward:";
+
+/* Class = "UIButton"; normalTitle = "立即投资"; ObjectID = "vtx-65-096"; */
+"vtx-65-096.normalTitle" = "Buy mining machine";
+
+/* Class = "UILabel"; text = "投资规则"; ObjectID = "xNa-hG-ay8"; */
+"xNa-hG-ay8.text" = "Buy mining machine rules";

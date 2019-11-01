@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "总锁仓"; ObjectID = "0FK-4S-7rA"; */
+"0FK-4S-7rA.text" = "总锁仓";
+
+/* Class = "UILabel"; text = "36984.26"; ObjectID = "Bka-IB-jXu"; */
+"Bka-IB-jXu.text" = "36984.26";
+
+/* Class = "UILabel"; text = "序号"; ObjectID = "Mdw-N6-sZk"; */
+"Mdw-N6-sZk.text" = "序号";
+
+/* Class = "UILabel"; text = "日期"; ObjectID = "SeI-vk-POr"; */
+"SeI-vk-POr.text" = "日期";
+
+/* Class = "UILabel"; text = "已解锁"; ObjectID = "bdr-Nv-nhW"; */
+"bdr-Nv-nhW.text" = "已解锁";
+
+/* Class = "UILabel"; text = "36984.26"; ObjectID = "dtr-vE-Ukd"; */
+"dtr-vE-Ukd.text" = "36984.26";
+
+/* Class = "UILabel"; text = "数量"; ObjectID = "fq8-mN-MMu"; */
+"fq8-mN-MMu.text" = "数量";
+
+/* Class = "UILabel"; text = "剩余锁仓"; ObjectID = "nxs-Wa-whd"; */
+"nxs-Wa-whd.text" = "剩余锁仓";
+
+/* Class = "UILabel"; text = "36984.26"; ObjectID = "vPt-YY-3UN"; */
+"vPt-YY-3UN.text" = "36984.26";

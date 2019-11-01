@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ScreenShotView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dcl-Vb-sQU">
+                    <rect key="frame" x="75.5" y="80" width="225" height="400"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XYq-lr-US1">
+                    <rect key="frame" x="0.0" y="541" width="94" height="26"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="微博" image="weibo">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="weiboBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="5VQ-PD-bEZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aW3-LD-ehE">
+                    <rect key="frame" x="94" y="541.5" width="93.5" height="26"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="QQ" image="QQ">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="qqBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="bZR-iA-hcb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffd-qr-VYi">
+                    <rect key="frame" x="187.5" y="541" width="94" height="26"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="朋友圈" image="pengyouquan">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="friendBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="iGI-7O-KM2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="11Y-5d-Gsg">
+                    <rect key="frame" x="281.5" y="541.5" width="93.5" height="26"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="微信" image="weixin">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="weixinBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="V3n-gh-UH0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jTH-bN-GHY">
+                    <rect key="frame" x="20" y="607" width="335" height="40"/>
+                    <color key="backgroundColor" red="0.86274509803921573" green="0.68627450980392157" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="wsW-Qg-EBK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="取消"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="cancelBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="fst-AS-qXR"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="jTH-bN-GHY" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="11o-xY-1Rc"/>
+                <constraint firstItem="aW3-LD-ehE" firstAttribute="leading" secondItem="XYq-lr-US1" secondAttribute="trailing" id="1Oe-CY-3b6"/>
+                <constraint firstItem="ffd-qr-VYi" firstAttribute="centerY" secondItem="aW3-LD-ehE" secondAttribute="centerY" id="5E3-jt-99G"/>
+                <constraint firstItem="XYq-lr-US1" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="6nD-Uv-Faq"/>
+                <constraint firstItem="ffd-qr-VYi" firstAttribute="leading" secondItem="aW3-LD-ehE" secondAttribute="trailing" id="8TI-7e-q8g"/>
+                <constraint firstItem="aW3-LD-ehE" firstAttribute="centerY" secondItem="XYq-lr-US1" secondAttribute="centerY" id="Hp1-p7-qwx"/>
+                <constraint firstItem="dcl-Vb-sQU" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="IHx-ev-Agh"/>
+                <constraint firstItem="ffd-qr-VYi" firstAttribute="width" secondItem="XYq-lr-US1" secondAttribute="width" id="TlM-Uw-K7v"/>
+                <constraint firstItem="dcl-Vb-sQU" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="60" id="agN-1M-A0a"/>
+                <constraint firstItem="11Y-5d-Gsg" firstAttribute="centerY" secondItem="ffd-qr-VYi" secondAttribute="centerY" id="avm-lB-44O"/>
+                <constraint firstItem="11Y-5d-Gsg" firstAttribute="leading" secondItem="ffd-qr-VYi" secondAttribute="trailing" id="beU-07-q8E"/>
+                <constraint firstItem="dcl-Vb-sQU" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.6" id="h19-Lq-GZK"/>
+                <constraint firstItem="dcl-Vb-sQU" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.6" id="hOf-dd-Nuw"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="jTH-bN-GHY" secondAttribute="bottom" constant="20" id="hx9-EO-WbH"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="11Y-5d-Gsg" secondAttribute="trailing" id="k1G-VB-E4b"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="XYq-lr-US1" secondAttribute="bottom" constant="100" id="rSA-v0-bJ7"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="jTH-bN-GHY" secondAttribute="trailing" constant="20" id="rVU-j6-qmc"/>
+                <constraint firstItem="11Y-5d-Gsg" firstAttribute="width" secondItem="XYq-lr-US1" secondAttribute="width" id="xwV-hI-ohh"/>
+                <constraint firstItem="aW3-LD-ehE" firstAttribute="width" secondItem="XYq-lr-US1" secondAttribute="width" id="yPa-0L-TtW"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="cancelBtn" destination="jTH-bN-GHY" id="0Fg-Lb-PNZ"/>
+                <outlet property="friendBtn" destination="ffd-qr-VYi" id="6PI-EQ-Xw7"/>
+                <outlet property="imageView" destination="dcl-Vb-sQU" id="8qc-ki-OfF"/>
+                <outlet property="qqBtn" destination="aW3-LD-ehE" id="HDJ-zG-97L"/>
+                <outlet property="weiboBtn" destination="XYq-lr-US1" id="eSR-bE-uzU"/>
+                <outlet property="weixinBtn" destination="11Y-5d-Gsg" id="pqV-Pl-XPg"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="QQ" width="26" height="26"/>
+        <image name="pengyouquan" width="26" height="26"/>
+        <image name="weibo" width="26" height="26"/>
+        <image name="weixin" width="26" height="26"/>
+    </resources>
+</document>

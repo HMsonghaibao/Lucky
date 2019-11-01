@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "可转数量：0.00USDT"; ObjectID = "3y8-sh-vMI"; */
+"3y8-sh-vMI.text" = "可转数量：0.00USDT";
+
+/* Class = "UILabel"; text = "到账数量：0.00USDT"; ObjectID = "DQw-e0-68x"; */
+"DQw-e0-68x.text" = "到账数量：0.00USDT";
+
+/* Class = "UIButton"; normalTitle = "USDT"; ObjectID = "Ehd-lh-xjq"; */
+"Ehd-lh-xjq.normalTitle" = "USDT";
+
+/* Class = "UITextField"; placeholder = "请输入对方账户"; ObjectID = "GbB-we-QxO"; */
+"GbB-we-QxO.placeholder" = "请输入对方用户名";
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "Lch-am-UHZ"; */
+"Lch-am-UHZ.normalTitle" = "确定";
+
+/* Class = "UITextField"; placeholder = "请输入交易密码"; ObjectID = "YGh-Od-ygb"; */
+"YGh-Od-ygb.placeholder" = "请输入交易密码";
+
+/* Class = "UILabel"; text = "交易密码:"; ObjectID = "bkO-iE-Ted"; */
+"bkO-iE-Ted.text" = "交易密码:";
+
+/* Class = "UILabel"; text = "转账数量:"; ObjectID = "jA3-ai-QfD"; */
+"jA3-ai-QfD.text" = "转账数量:";
+
+/* Class = "UITextField"; placeholder = "请输入转账数量"; ObjectID = "k0p-v7-j9l"; */
+"k0p-v7-j9l.placeholder" = "请输入转账数量";
+
+/* Class = "UILabel"; text = "对方账户:"; ObjectID = "xYA-Wp-7WO"; */
+"xYA-Wp-7WO.text" = "对方用户名:";

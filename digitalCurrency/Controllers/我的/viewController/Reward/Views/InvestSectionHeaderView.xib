@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="InvestSectionHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="91"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="结算时间" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w53-zU-qNI">
+                    <rect key="frame" x="15" y="15" width="62" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CtY-gW-GJr">
+                    <rect key="frame" x="15" y="41" width="31" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TBT-7m-O6i">
+                    <rect key="frame" x="351" y="24" width="14" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="E4Y-ZH-ZKA"/>
+                        <constraint firstAttribute="width" constant="14" id="sWz-TF-Wc8"/>
+                    </constraints>
+                    <state key="normal" image="gengduo"/>
+                    <state key="selected" image="gengduo-1"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="投资金额" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7nj-cU-Gj1">
+                    <rect key="frame" x="289" y="15" width="54" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mca-h6-nfd">
+                    <rect key="frame" x="305" y="39.5" width="38" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="邀请投资记录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYW-42-GsR">
+                    <rect key="frame" x="15" y="75" width="80" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.1215686275" green="0.15686274510000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="TBT-7m-O6i" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="24" id="16m-b2-Y9B"/>
+                <constraint firstItem="7nj-cU-Gj1" firstAttribute="top" secondItem="w53-zU-qNI" secondAttribute="top" id="3h4-w0-cRh"/>
+                <constraint firstItem="CtY-gW-GJr" firstAttribute="top" secondItem="w53-zU-qNI" secondAttribute="bottom" constant="8" id="5UR-MZ-12j"/>
+                <constraint firstItem="TBT-7m-O6i" firstAttribute="leading" secondItem="7nj-cU-Gj1" secondAttribute="trailing" constant="8" id="C2e-dC-syc"/>
+                <constraint firstItem="w53-zU-qNI" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="15" id="HV0-3q-LbS"/>
+                <constraint firstItem="eYW-42-GsR" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="Idk-Jf-RRH"/>
+                <constraint firstItem="TBT-7m-O6i" firstAttribute="leading" secondItem="Mca-h6-nfd" secondAttribute="trailing" constant="8" id="LNr-PU-e3q"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="TBT-7m-O6i" secondAttribute="trailing" constant="10" id="M2q-ph-oT6"/>
+                <constraint firstItem="CtY-gW-GJr" firstAttribute="leading" secondItem="w53-zU-qNI" secondAttribute="leading" id="SJj-F8-Dy1"/>
+                <constraint firstItem="Mca-h6-nfd" firstAttribute="centerY" secondItem="CtY-gW-GJr" secondAttribute="centerY" id="U1v-22-WAV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="eYW-42-GsR" secondAttribute="bottom" id="dxg-Jv-eFa"/>
+                <constraint firstItem="w53-zU-qNI" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="k2O-GK-k8t"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="amountLabel" destination="Mca-h6-nfd" id="cHE-Et-2bF"/>
+                <outlet property="finishTimeLabel" destination="w53-zU-qNI" id="8aE-6w-58x"/>
+                <outlet property="investLabel" destination="7nj-cU-Gj1" id="0jQ-BN-Thp"/>
+                <outlet property="stateButton" destination="TBT-7m-O6i" id="i9P-xE-zJc"/>
+                <outlet property="timeLabel" destination="CtY-gW-GJr" id="IPV-Fw-oea"/>
+                <outlet property="titleLabel" destination="eYW-42-GsR" id="uUV-lI-ae7"/>
+            </connections>
+            <point key="canvasLocation" x="138.40000000000001" y="-137.18140929535232"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="gengduo" width="14" height="8"/>
+        <image name="gengduo-1" width="14" height="8"/>
+    </resources>
+</document>

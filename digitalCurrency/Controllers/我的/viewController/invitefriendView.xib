@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="invitefriendView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="121"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E9o-YF-oVx">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="121"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JpR-C8-ju3">
+                            <rect key="frame" x="0.0" y="65" width="375" height="1"/>
+                            <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="IEy-jG-gDc"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PRK-4x-V6I">
+                            <rect key="frame" x="0.0" y="66" width="375" height="55"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" title="取消">
+                                <color key="titleColor" red="0.49019607840000001" green="0.49019607840000001" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="cancelBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="kr2-dQ-v2c"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9OI-pm-QFf">
+                            <rect key="frame" x="0.0" y="0.0" width="94" height="65"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="微博" image="weibo">
+                                <color key="titleColor" red="0.4941176471" green="0.4941176471" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="weiboBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="2Tn-MI-v6u"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PpC-Ut-zsB">
+                            <rect key="frame" x="94" y="0.0" width="93.5" height="65"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="QQ" image="QQ">
+                                <color key="titleColor" red="0.4941176471" green="0.4941176471" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="qqBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="pTA-8P-ZG1"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Bx-0G-EJg">
+                            <rect key="frame" x="187.5" y="0.0" width="94" height="65"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="朋友圈" image="pengyouquan">
+                                <color key="titleColor" red="0.4941176471" green="0.4941176471" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="pyqBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="aKN-EQ-QEB"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayf-ub-1yX">
+                            <rect key="frame" x="281.5" y="0.0" width="93.5" height="65"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="微信" image="weixin">
+                                <color key="titleColor" red="0.4941176471" green="0.4941176471" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="weixinBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="J9X-MO-8hC"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="JpR-C8-ju3" firstAttribute="top" secondItem="9OI-pm-QFf" secondAttribute="bottom" id="6nn-k6-jen"/>
+                        <constraint firstItem="PRK-4x-V6I" firstAttribute="leading" secondItem="E9o-YF-oVx" secondAttribute="leading" id="BNs-aB-nLq"/>
+                        <constraint firstAttribute="trailing" secondItem="PRK-4x-V6I" secondAttribute="trailing" id="CE0-dZ-t5V"/>
+                        <constraint firstAttribute="trailing" secondItem="ayf-ub-1yX" secondAttribute="trailing" id="CcB-Lz-dUu"/>
+                        <constraint firstItem="JpR-C8-ju3" firstAttribute="leading" secondItem="E9o-YF-oVx" secondAttribute="leading" id="DbA-g2-ro8"/>
+                        <constraint firstItem="ayf-ub-1yX" firstAttribute="top" secondItem="E9o-YF-oVx" secondAttribute="top" id="GwE-K8-UHr"/>
+                        <constraint firstAttribute="bottom" secondItem="JpR-C8-ju3" secondAttribute="bottom" constant="55" id="GwT-Qb-HLW"/>
+                        <constraint firstItem="7Bx-0G-EJg" firstAttribute="width" secondItem="9OI-pm-QFf" secondAttribute="width" id="KHc-1m-vkn"/>
+                        <constraint firstItem="9OI-pm-QFf" firstAttribute="leading" secondItem="E9o-YF-oVx" secondAttribute="leading" id="LDO-BZ-1KW"/>
+                        <constraint firstItem="JpR-C8-ju3" firstAttribute="top" secondItem="ayf-ub-1yX" secondAttribute="bottom" id="Mv6-xR-JL3"/>
+                        <constraint firstItem="PpC-Ut-zsB" firstAttribute="width" secondItem="9OI-pm-QFf" secondAttribute="width" id="NX9-ga-fdr"/>
+                        <constraint firstItem="7Bx-0G-EJg" firstAttribute="leading" secondItem="PpC-Ut-zsB" secondAttribute="trailing" id="OFZ-bs-SMg"/>
+                        <constraint firstItem="7Bx-0G-EJg" firstAttribute="top" secondItem="E9o-YF-oVx" secondAttribute="top" id="RQA-6U-6em"/>
+                        <constraint firstItem="9OI-pm-QFf" firstAttribute="top" secondItem="E9o-YF-oVx" secondAttribute="top" id="RvL-HC-aRY"/>
+                        <constraint firstItem="JpR-C8-ju3" firstAttribute="top" secondItem="7Bx-0G-EJg" secondAttribute="bottom" id="UBA-e3-KRP"/>
+                        <constraint firstItem="JpR-C8-ju3" firstAttribute="top" secondItem="PpC-Ut-zsB" secondAttribute="bottom" id="Zz0-pM-rIK"/>
+                        <constraint firstItem="PRK-4x-V6I" firstAttribute="top" secondItem="JpR-C8-ju3" secondAttribute="bottom" id="cK9-ba-k7C"/>
+                        <constraint firstItem="7Bx-0G-EJg" firstAttribute="leading" secondItem="PpC-Ut-zsB" secondAttribute="trailing" id="e62-er-3u5"/>
+                        <constraint firstItem="ayf-ub-1yX" firstAttribute="width" secondItem="9OI-pm-QFf" secondAttribute="width" id="fQA-ID-0RN"/>
+                        <constraint firstItem="PpC-Ut-zsB" firstAttribute="leading" secondItem="9OI-pm-QFf" secondAttribute="trailing" id="iAZ-48-pb8"/>
+                        <constraint firstItem="PpC-Ut-zsB" firstAttribute="top" secondItem="E9o-YF-oVx" secondAttribute="top" id="mCW-Xy-4yV"/>
+                        <constraint firstItem="ayf-ub-1yX" firstAttribute="leading" secondItem="7Bx-0G-EJg" secondAttribute="trailing" id="pZe-Ur-GE3"/>
+                        <constraint firstItem="ayf-ub-1yX" firstAttribute="leading" secondItem="7Bx-0G-EJg" secondAttribute="trailing" id="scD-Bt-Ym7"/>
+                        <constraint firstAttribute="bottom" secondItem="PRK-4x-V6I" secondAttribute="bottom" id="xab-cL-JcL"/>
+                        <constraint firstAttribute="trailing" secondItem="JpR-C8-ju3" secondAttribute="trailing" id="zaJ-R8-3I0"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="E9o-YF-oVx" secondAttribute="bottom" id="GXM-QT-g15"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="E9o-YF-oVx" secondAttribute="trailing" id="erg-pE-qFM"/>
+                <constraint firstItem="E9o-YF-oVx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="mkY-kN-m7l"/>
+                <constraint firstItem="E9o-YF-oVx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="w8v-GP-PVe"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="cancelBtn" destination="PRK-4x-V6I" id="cVg-35-IDS"/>
+                <outlet property="pyqBtn" destination="7Bx-0G-EJg" id="cWC-Ge-nh7"/>
+                <outlet property="qqBtn" destination="PpC-Ut-zsB" id="O9b-uO-mzc"/>
+                <outlet property="weiboBtn" destination="9OI-pm-QFf" id="aHS-IB-BQq"/>
+                <outlet property="weixinBtn" destination="ayf-ub-1yX" id="uYV-oy-Fjl"/>
+            </connections>
+            <point key="canvasLocation" x="18.5" y="64.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="QQ" width="26" height="26"/>
+        <image name="pengyouquan" width="26" height="26"/>
+        <image name="weibo" width="26" height="26"/>
+        <image name="weixin" width="26" height="26"/>
+    </resources>
+</document>

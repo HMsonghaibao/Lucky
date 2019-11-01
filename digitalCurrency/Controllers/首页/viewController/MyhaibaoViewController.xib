@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyhaibaoViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wWv-Bv-h5j">
+                    <rect key="frame" x="0.0" y="762" width="414" height="100"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QR-huite-1" translatesAutoresizingMaskIntoConstraints="NO" id="jgb-JJ-x9w">
+                            <rect key="frame" x="309" y="10" width="80" height="80"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="80" id="Sk9-x8-3is"/>
+                                <constraint firstAttribute="width" constant="80" id="mmD-LJ-Gej"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="畅享Huite惊喜福利" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mdd-QT-Sin">
+                            <rect key="frame" x="24" y="53" width="211.5" height="30"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                            <color key="textColor" red="0.00011175133113283664" green="0.22545027732849121" blue="0.45392882823944092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="扫码即刻注册" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uLq-hM-r45">
+                            <rect key="frame" x="24" y="23.5" width="98" height="19.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                            <color key="textColor" red="0.0001117513311" green="0.2254502773" blue="0.45392882820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Mdd-QT-Sin" secondAttribute="bottom" constant="17" id="Zsg-vw-HGy"/>
+                        <constraint firstAttribute="trailing" secondItem="jgb-JJ-x9w" secondAttribute="trailing" constant="25" id="cFR-0Q-shm"/>
+                        <constraint firstItem="Mdd-QT-Sin" firstAttribute="top" secondItem="uLq-hM-r45" secondAttribute="bottom" constant="10" id="efe-rU-fC6"/>
+                        <constraint firstItem="Mdd-QT-Sin" firstAttribute="leading" secondItem="wWv-Bv-h5j" secondAttribute="leading" constant="24" id="hba-jz-cAy"/>
+                        <constraint firstItem="uLq-hM-r45" firstAttribute="leading" secondItem="Mdd-QT-Sin" secondAttribute="leading" id="kKa-Mc-G9W"/>
+                        <constraint firstItem="jgb-JJ-x9w" firstAttribute="centerY" secondItem="wWv-Bv-h5j" secondAttribute="centerY" id="lF2-fm-IcT"/>
+                        <constraint firstAttribute="height" constant="100" id="mir-bB-ePi"/>
+                    </constraints>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group-huite" translatesAutoresizingMaskIntoConstraints="NO" id="rSY-Ke-Scq">
+                    <rect key="frame" x="0.0" y="44" width="414" height="718"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="rSY-Ke-Scq" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="5xG-uc-cEa"/>
+                <constraint firstItem="wWv-Bv-h5j" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="FKp-jl-6Vb"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="wWv-Bv-h5j" secondAttribute="trailing" id="Teg-jE-zve"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="rSY-Ke-Scq" secondAttribute="trailing" id="gFI-Q8-fNN"/>
+                <constraint firstItem="rSY-Ke-Scq" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="iDk-wW-iw6"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="wWv-Bv-h5j" secondAttribute="bottom" id="jTX-ID-rei"/>
+                <constraint firstItem="wWv-Bv-h5j" firstAttribute="top" secondItem="rSY-Ke-Scq" secondAttribute="bottom" id="mEq-oQ-GVZ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Group-huite" width="375" height="567"/>
+        <image name="QR-huite-1" width="153" height="153"/>
+    </resources>
+</document>

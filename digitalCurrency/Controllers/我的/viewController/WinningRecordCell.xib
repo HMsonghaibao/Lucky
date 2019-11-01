@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="KGk-i7-Jjw" customClass="WinningRecordCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="会长收益" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVv-PS-scV">
+                        <rect key="frame" x="14" y="18" width="73.5" height="21.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                        <color key="textColor" red="0.81097429990768433" green="0.82593131065368652" blue="0.91303890943527222" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="开奖时间：下午15.00开奖" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oJ5-uX-FRy">
+                        <rect key="frame" x="14" y="50.5" width="143" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                        <color key="textColor" red="0.42761540412902832" green="0.5311279296875" blue="0.66002941131591797" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2pH-FF-HdB">
+                        <rect key="frame" x="0.0" y="78.5" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.24313725490196078" green="0.25490196078431371" blue="0.50980392156862742" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="sfC-Pp-Xgx"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+2 NBTC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ayP-Jy-Y82">
+                        <rect key="frame" x="220.5" y="17" width="84.5" height="24"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                        <color key="textColor" red="0.87153273820877075" green="0.30658417940139771" blue="0.4047895073890686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.032948847860097885" green="0.089284725487232208" blue="0.13916447758674622" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="dVv-PS-scV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="18" id="5gn-uC-Ddb"/>
+                    <constraint firstAttribute="trailing" secondItem="2pH-FF-HdB" secondAttribute="trailing" id="7C0-Pr-63D"/>
+                    <constraint firstAttribute="bottom" secondItem="2pH-FF-HdB" secondAttribute="bottom" id="OyC-Gc-js4"/>
+                    <constraint firstAttribute="trailing" secondItem="ayP-Jy-Y82" secondAttribute="trailing" constant="15" id="Tes-Lh-n7V"/>
+                    <constraint firstItem="oJ5-uX-FRy" firstAttribute="top" secondItem="dVv-PS-scV" secondAttribute="bottom" constant="11" id="Wni-zc-1Uo"/>
+                    <constraint firstItem="dVv-PS-scV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="ZzN-DO-BNo"/>
+                    <constraint firstItem="oJ5-uX-FRy" firstAttribute="leading" secondItem="dVv-PS-scV" secondAttribute="leading" id="dh5-Yd-ggw"/>
+                    <constraint firstItem="2pH-FF-HdB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="qBb-Dr-BFm"/>
+                    <constraint firstItem="ayP-Jy-Y82" firstAttribute="centerY" secondItem="dVv-PS-scV" secondAttribute="centerY" id="wep-3A-HXj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="moneyL" destination="ayP-Jy-Y82" id="rqu-DN-he0"/>
+                <outlet property="timeL" destination="dVv-PS-scV" id="DrO-P1-FIj"/>
+                <outlet property="timeRecordL" destination="oJ5-uX-FRy" id="n7C-vb-iss"/>
+            </connections>
+            <point key="canvasLocation" x="32" y="121"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="92" id="KGk-i7-Jjw" customClass="addssTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="92"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="91.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iKc-YT-F0X">
+                        <rect key="frame" x="15" y="10" width="290" height="81.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ashley’s Wallet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QaR-SU-rhd">
+                                <rect key="frame" x="17" y="16" width="127.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" red="0.81097429990768433" green="0.82593131065368652" blue="0.91303890943527222" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567asdlfjqojfqofjad7654321" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dG0-yy-R3E">
+                                <rect key="frame" x="17" y="39" width="197" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                                <color key="textColor" red="0.50837773084640503" green="0.55229932069778442" blue="0.59813392162322998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.072683937847614288" green="0.1163172647356987" blue="0.18274205923080444" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dG0-yy-R3E" firstAttribute="leading" secondItem="iKc-YT-F0X" secondAttribute="leading" constant="17" id="0Rs-vh-TTE"/>
+                            <constraint firstItem="dG0-yy-R3E" firstAttribute="top" secondItem="QaR-SU-rhd" secondAttribute="bottom" constant="2" id="EGD-B9-Icl"/>
+                            <constraint firstItem="QaR-SU-rhd" firstAttribute="top" secondItem="iKc-YT-F0X" secondAttribute="top" constant="16" id="SwI-sa-vxY"/>
+                            <constraint firstItem="QaR-SU-rhd" firstAttribute="leading" secondItem="iKc-YT-F0X" secondAttribute="leading" constant="17" id="qIz-o1-4ZX"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="iKc-YT-F0X" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Foi-VU-NAS"/>
+                    <constraint firstItem="iKc-YT-F0X" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="J2G-sV-lzl"/>
+                    <constraint firstAttribute="bottom" secondItem="iKc-YT-F0X" secondAttribute="bottom" id="YwL-uI-PXS"/>
+                    <constraint firstAttribute="trailing" secondItem="iKc-YT-F0X" secondAttribute="trailing" constant="15" id="ZSc-If-DTX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.032948847860097885" green="0.089284725487232208" blue="0.13916447758674622" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <point key="canvasLocation" x="131.8840579710145" y="111.83035714285714"/>
+        </tableViewCell>
+    </objects>
+</document>

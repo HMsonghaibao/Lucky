@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HuizhangViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="会长级别" translatesAutoresizingMaskIntoConstraints="NO" id="A3o-u0-yTp">
+                    <rect key="frame" x="70" y="97" width="274" height="129"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="下级会长人数：6896人" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ri-yr-N3R">
+                    <rect key="frame" x="111.5" y="231" width="191" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="1" green="0.81808972358703613" blue="0.59766966104507446" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="累计会长收益：62781918HTC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hG5-jk-HJb">
+                    <rect key="frame" x="85" y="256" width="244.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="1" green="0.81808972358703613" blue="0.59766966104507446" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="二级会长" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gp-ay-VUb">
+                    <rect key="frame" x="156.5" y="137" width="121.5" height="36"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                    <color key="textColor" red="0.73675519227981567" green="0.60233205556869507" blue="0.38999456167221069" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tYC-6f-ucC">
+                    <rect key="frame" x="232" y="334" width="167" height="236"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="会长奖金池" translatesAutoresizingMaskIntoConstraints="NO" id="DIT-WG-uj6">
+                            <rect key="frame" x="0.0" y="0.0" width="167" height="236"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5SG-Hj-UuC">
+                            <rect key="frame" x="20" y="63.5" width="127" height="38.5"/>
+                            <string key="text">二级会长
+奖金池(HTC)</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="1" green="0.81808972359999999" blue="0.59766966099999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3656788978.65" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pfl-yc-3S0">
+                            <rect key="frame" x="20" y="121" width="127" height="72"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="5SG-Hj-UuC" firstAttribute="centerY" secondItem="DIT-WG-uj6" secondAttribute="centerY" multiplier="0.7" id="41v-uN-DrZ"/>
+                        <constraint firstAttribute="trailing" secondItem="5SG-Hj-UuC" secondAttribute="trailing" constant="20" id="EGf-86-lG0"/>
+                        <constraint firstAttribute="bottom" secondItem="DIT-WG-uj6" secondAttribute="bottom" id="OOi-SD-dhC"/>
+                        <constraint firstItem="DIT-WG-uj6" firstAttribute="top" secondItem="tYC-6f-ucC" secondAttribute="top" id="SFt-PR-jzb"/>
+                        <constraint firstAttribute="trailing" secondItem="Pfl-yc-3S0" secondAttribute="trailing" constant="20" id="Y1H-Px-dOz"/>
+                        <constraint firstAttribute="trailing" secondItem="DIT-WG-uj6" secondAttribute="trailing" id="aZ7-9Q-Imj"/>
+                        <constraint firstAttribute="height" constant="236" id="eba-qA-odc"/>
+                        <constraint firstItem="DIT-WG-uj6" firstAttribute="leading" secondItem="tYC-6f-ucC" secondAttribute="leading" id="oWk-j5-zNZ"/>
+                        <constraint firstItem="5SG-Hj-UuC" firstAttribute="centerX" secondItem="DIT-WG-uj6" secondAttribute="centerX" id="ojs-4R-ReS"/>
+                        <constraint firstItem="Pfl-yc-3S0" firstAttribute="leading" secondItem="tYC-6f-ucC" secondAttribute="leading" constant="20" id="qjP-g6-vgc"/>
+                        <constraint firstItem="Pfl-yc-3S0" firstAttribute="centerX" secondItem="DIT-WG-uj6" secondAttribute="centerX" id="v8s-6r-fy7"/>
+                        <constraint firstItem="Pfl-yc-3S0" firstAttribute="top" secondItem="5SG-Hj-UuC" secondAttribute="bottom" constant="19" id="xFP-KZ-Fj4"/>
+                        <constraint firstItem="5SG-Hj-UuC" firstAttribute="leading" secondItem="tYC-6f-ucC" secondAttribute="leading" constant="20" id="xcU-5n-RaF"/>
+                        <constraint firstAttribute="width" constant="167" id="xhf-LK-iN6"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="rNL-AF-DhP"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e6p-ec-cbH">
+                    <rect key="frame" x="15" y="334" width="167" height="236"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="会长奖金池" translatesAutoresizingMaskIntoConstraints="NO" id="Ttr-XO-WlY">
+                            <rect key="frame" x="0.0" y="0.0" width="167" height="236"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nie-hO-v3T">
+                            <rect key="frame" x="20" y="63.5" width="127" height="38.5"/>
+                            <string key="text">二级会长
+奖金池(HTC)</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="1" green="0.81808972358703613" blue="0.59766966104507446" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3656788978.65" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F7P-H3-BNF">
+                            <rect key="frame" x="20" y="121" width="127" height="72"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Ttr-XO-WlY" firstAttribute="leading" secondItem="e6p-ec-cbH" secondAttribute="leading" id="0Hs-Ua-ZOP"/>
+                        <constraint firstItem="F7P-H3-BNF" firstAttribute="top" secondItem="nie-hO-v3T" secondAttribute="bottom" constant="19" id="0I7-pe-1Rh"/>
+                        <constraint firstAttribute="width" constant="167" id="1em-GS-46H"/>
+                        <constraint firstItem="F7P-H3-BNF" firstAttribute="centerX" secondItem="Ttr-XO-WlY" secondAttribute="centerX" id="6Vf-Ov-yZW"/>
+                        <constraint firstItem="nie-hO-v3T" firstAttribute="centerY" secondItem="Ttr-XO-WlY" secondAttribute="centerY" multiplier="0.7" id="87n-at-KJU"/>
+                        <constraint firstAttribute="height" constant="236" id="88M-o4-7kc"/>
+                        <constraint firstAttribute="trailing" secondItem="Ttr-XO-WlY" secondAttribute="trailing" id="GfV-7E-bdX"/>
+                        <constraint firstItem="nie-hO-v3T" firstAttribute="centerX" secondItem="Ttr-XO-WlY" secondAttribute="centerX" id="NHu-mm-1BB"/>
+                        <constraint firstItem="Ttr-XO-WlY" firstAttribute="top" secondItem="e6p-ec-cbH" secondAttribute="top" id="mBa-Ao-DWi"/>
+                        <constraint firstAttribute="trailing" secondItem="nie-hO-v3T" secondAttribute="trailing" constant="20" id="n5N-7R-zOa"/>
+                        <constraint firstItem="nie-hO-v3T" firstAttribute="leading" secondItem="e6p-ec-cbH" secondAttribute="leading" constant="20" id="pNt-Ka-Nbt"/>
+                        <constraint firstItem="F7P-H3-BNF" firstAttribute="leading" secondItem="e6p-ec-cbH" secondAttribute="leading" constant="20" id="vzo-zb-VPT"/>
+                        <constraint firstAttribute="bottom" secondItem="Ttr-XO-WlY" secondAttribute="bottom" id="xGY-Xc-FqC"/>
+                        <constraint firstAttribute="trailing" secondItem="F7P-H3-BNF" secondAttribute="trailing" constant="20" id="xTn-8c-e1p"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.032948847860097885" green="0.089284725487232208" blue="0.13916447758674622" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="3ri-yr-N3R" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="14f-wS-pYB"/>
+                <constraint firstItem="3ri-yr-N3R" firstAttribute="top" secondItem="A3o-u0-yTp" secondAttribute="bottom" constant="5" id="89K-Dj-mNy"/>
+                <constraint firstItem="hG5-jk-HJb" firstAttribute="top" secondItem="3ri-yr-N3R" secondAttribute="bottom" constant="4" id="E5V-cV-6fI"/>
+                <constraint firstItem="A3o-u0-yTp" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="53" id="E6b-2v-aZg"/>
+                <constraint firstItem="e6p-ec-cbH" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="15" id="G9v-3J-AKI"/>
+                <constraint firstItem="1gp-ay-VUb" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" multiplier="1.05" id="Kyb-a6-BeP"/>
+                <constraint firstItem="tYC-6f-ucC" firstAttribute="top" secondItem="e6p-ec-cbH" secondAttribute="top" id="OFC-PS-iWz"/>
+                <constraint firstItem="3ri-yr-N3R" firstAttribute="top" secondItem="1gp-ay-VUb" secondAttribute="bottom" constant="58" id="P2t-EW-ZdJ"/>
+                <constraint firstItem="hG5-jk-HJb" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="PxP-9u-GnW"/>
+                <constraint firstItem="A3o-u0-yTp" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="S26-ol-AMc"/>
+                <constraint firstAttribute="trailing" secondItem="tYC-6f-ucC" secondAttribute="trailing" constant="15" id="akT-LR-TjY"/>
+                <constraint firstItem="e6p-ec-cbH" firstAttribute="top" secondItem="hG5-jk-HJb" secondAttribute="bottom" constant="57" id="jGq-uS-RUi"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="34.782608695652179" y="34.821428571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="会长奖金池" width="167" height="236"/>
+        <image name="会长级别" width="274" height="129"/>
+    </resources>
+</document>

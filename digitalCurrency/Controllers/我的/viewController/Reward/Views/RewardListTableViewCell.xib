@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="67" id="KGk-i7-Jjw" customClass="RewardListTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="67"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="66.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="结算时间" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5zq-Bs-Aqv">
+                        <rect key="frame" x="15" y="15" width="54" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZd-T8-prL">
+                        <rect key="frame" x="15" y="39" width="31" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="收益数量" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DnS-JF-KLh">
+                        <rect key="frame" x="255.5" y="15.5" width="49.5" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIB-Ip-XlO">
+                        <rect key="frame" x="267" y="37.5" width="38" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cbt-wb-y0F">
+                        <rect key="frame" x="0.0" y="65.5" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.12156862745098039" green="0.15686274509803921" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Kzv-Uk-rXE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.070588235294117646" green="0.086274509803921567" blue="0.10980392156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="DnS-JF-KLh" firstAttribute="centerY" secondItem="5zq-Bs-Aqv" secondAttribute="centerY" id="1OD-am-CLg"/>
+                    <constraint firstItem="dZd-T8-prL" firstAttribute="top" secondItem="5zq-Bs-Aqv" secondAttribute="bottom" constant="8" id="1Qm-qr-AGv"/>
+                    <constraint firstItem="dZd-T8-prL" firstAttribute="leading" secondItem="5zq-Bs-Aqv" secondAttribute="leading" id="4aN-vr-BlK"/>
+                    <constraint firstItem="5zq-Bs-Aqv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="5fN-Ai-txD"/>
+                    <constraint firstItem="dIB-Ip-XlO" firstAttribute="centerY" secondItem="dZd-T8-prL" secondAttribute="centerY" id="EIL-0u-Kag"/>
+                    <constraint firstItem="DnS-JF-KLh" firstAttribute="trailing" secondItem="dIB-Ip-XlO" secondAttribute="trailing" id="JQu-tU-e6Z"/>
+                    <constraint firstAttribute="trailing" secondItem="DnS-JF-KLh" secondAttribute="trailing" constant="15" id="JqM-l2-eX5"/>
+                    <constraint firstItem="cbt-wb-y0F" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="YAL-Q4-26M"/>
+                    <constraint firstAttribute="trailing" secondItem="cbt-wb-y0F" secondAttribute="trailing" id="aDX-Pr-SmK"/>
+                    <constraint firstAttribute="bottom" secondItem="cbt-wb-y0F" secondAttribute="bottom" id="uDF-eM-baR"/>
+                    <constraint firstItem="5zq-Bs-Aqv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="uR0-NJ-ZdX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="amountLabel" destination="dIB-Ip-XlO" id="0XB-5J-ek1"/>
+                <outlet property="finishTimeLabel" destination="5zq-Bs-Aqv" id="oCI-YF-cl1"/>
+                <outlet property="incomeCountLabel" destination="DnS-JF-KLh" id="KeQ-eQ-V1d"/>
+                <outlet property="timeLabel" destination="dZd-T8-prL" id="hCH-74-HqN"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="131.78410794602701"/>
+        </tableViewCell>
+    </objects>
+</document>

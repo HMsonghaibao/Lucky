@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="230" id="KGk-i7-Jjw" customClass="MyteamTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="422" height="230"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="422" height="229.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZBu-pF-gCp">
+                        <rect key="frame" x="15" y="7.5" width="392" height="214.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HTC生态圈" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eS8-GV-61k">
+                                <rect key="frame" x="15" y="10" width="66.5" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="10c-kw-qgU">
+                                <rect key="frame" x="15" y="31" width="362" height="178.5"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.15686274510000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="KPe-P3-jjM">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1215686275" green="0.15686274510000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="10c-kw-qgU" firstAttribute="leading" secondItem="eS8-GV-61k" secondAttribute="leading" id="0l0-mY-uEU"/>
+                            <constraint firstAttribute="bottom" secondItem="10c-kw-qgU" secondAttribute="bottom" constant="5" id="6Ek-Qh-voB"/>
+                            <constraint firstItem="10c-kw-qgU" firstAttribute="top" secondItem="eS8-GV-61k" secondAttribute="bottom" constant="5" id="EkW-TP-3eA"/>
+                            <constraint firstItem="eS8-GV-61k" firstAttribute="top" secondItem="ZBu-pF-gCp" secondAttribute="top" constant="10" id="Y0v-nE-Huc"/>
+                            <constraint firstItem="eS8-GV-61k" firstAttribute="leading" secondItem="ZBu-pF-gCp" secondAttribute="leading" constant="15" id="rAO-tY-gEE"/>
+                            <constraint firstItem="10c-kw-qgU" firstAttribute="centerX" secondItem="ZBu-pF-gCp" secondAttribute="centerX" id="tDs-G1-Z27"/>
+                            <constraint firstItem="10c-kw-qgU" firstAttribute="top" secondItem="eS8-GV-61k" secondAttribute="bottom" constant="5" id="uCM-k2-SWC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.032948847860097885" green="0.089284725487232208" blue="0.13916447758674622" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="ZBu-pF-gCp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7.5" id="Dw2-X1-LUR"/>
+                    <constraint firstItem="ZBu-pF-gCp" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="pp4-Ss-462"/>
+                    <constraint firstAttribute="bottom" secondItem="ZBu-pF-gCp" secondAttribute="bottom" constant="7.5" id="qJs-Bp-zHs"/>
+                    <constraint firstItem="ZBu-pF-gCp" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.93" id="ywJ-AX-UpB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="backview" destination="ZBu-pF-gCp" id="YkN-Tp-ptI"/>
+                <outlet property="collectionview" destination="10c-kw-qgU" id="Sci-L7-jKZ"/>
+                <outlet property="titleview" destination="eS8-GV-61k" id="75N-pa-d2d"/>
+            </connections>
+            <point key="canvasLocation" x="76" y="145"/>
+        </tableViewCell>
+    </objects>
+</document>

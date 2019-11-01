@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WinningrecordController">
+            <connections>
+                <outlet property="contextL" destination="yzY-QG-Kja" id="RVz-l1-Llb"/>
+                <outlet property="tableView" destination="1fD-NV-sym" id="Sbx-Y7-F4Y"/>
+                <outlet property="titleL" destination="Stp-gD-6GZ" id="K79-ep-dqZ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1fD-NV-sym">
+                    <rect key="frame" x="0.0" y="132" width="375" height="535"/>
+                    <color key="backgroundColor" red="0.19607843137254902" green="0.20784313725490197" blue="0.45882352941176469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </tableView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="会长账单明细" translatesAutoresizingMaskIntoConstraints="NO" id="IZL-Ii-a0x">
+                    <rect key="frame" x="15" y="36" width="345" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="ZDB-Ye-71X"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="累计收益" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Stp-gD-6GZ">
+                    <rect key="frame" x="163" y="54" width="49.5" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100000 HTC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yzY-QG-Kja">
+                    <rect key="frame" x="126" y="79.5" width="123" height="24"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <color key="textColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.072683937847614288" green="0.1163172647356987" blue="0.18274205923080444" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="1fD-NV-sym" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="1tc-Kf-kgS"/>
+                <constraint firstItem="1fD-NV-sym" firstAttribute="top" secondItem="IZL-Ii-a0x" secondAttribute="bottom" constant="16" id="8ue-Jr-mva"/>
+                <constraint firstItem="Stp-gD-6GZ" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="96T-9H-BTJ"/>
+                <constraint firstItem="IZL-Ii-a0x" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="15" id="EgY-zo-AiC"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="1fD-NV-sym" secondAttribute="trailing" id="FDV-0M-E4K"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="1fD-NV-sym" secondAttribute="bottom" id="SpA-Vz-yEt"/>
+                <constraint firstItem="IZL-Ii-a0x" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="16" id="Y52-DH-bZz"/>
+                <constraint firstItem="yzY-QG-Kja" firstAttribute="top" secondItem="Stp-gD-6GZ" secondAttribute="bottom" constant="11" id="dDg-Q3-clZ"/>
+                <constraint firstItem="yzY-QG-Kja" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="dHc-DK-oVn"/>
+                <constraint firstItem="Stp-gD-6GZ" firstAttribute="top" secondItem="IZL-Ii-a0x" secondAttribute="top" constant="18" id="o7D-Jq-HFn"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="IZL-Ii-a0x" secondAttribute="trailing" constant="15" id="vEg-1U-bjG"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="31.5" y="102.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="会长账单明细" width="345" height="80"/>
+    </resources>
+</document>

@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "可提数量：5968USDT"; ObjectID = "3y8-sh-vMI"; */
+"3y8-sh-vMI.text" = "可提数量：5968USDT";
+
+/* Class = "UILabel"; text = "手续费：10%"; ObjectID = "DQw-e0-68x"; */
+"DQw-e0-68x.text" = "手续费：10%";
+
+/* Class = "UIButton"; normalTitle = "USDT"; ObjectID = "Ehd-lh-xjq"; */
+"Ehd-lh-xjq.normalTitle" = "LKC";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "GbB-we-QxO"; */
+"GbB-we-QxO.placeholder" = "Please enter the receipt address";
+
+/* Class = "UIButton"; normalTitle = "提币"; ObjectID = "Lch-am-UHZ"; */
+"Lch-am-UHZ.normalTitle" = "Done";
+
+/* Class = "UITextField"; placeholder = "请输入登录密码"; ObjectID = "YGh-Od-ygb"; */
+"YGh-Od-ygb.placeholder" = "Please enter the transaction password";
+
+/* Class = "UILabel"; text = "交易密码:"; ObjectID = "bkO-iE-Ted"; */
+"bkO-iE-Ted.text" = "Transaction password:";
+
+/* Class = "UILabel"; text = "提币数量:"; ObjectID = "jA3-ai-QfD"; */
+"jA3-ai-QfD.text" = "Number of coins:";
+
+/* Class = "UITextField"; placeholder = "请输入手机号码"; ObjectID = "k0p-v7-j9l"; */
+"k0p-v7-j9l.placeholder" = "Please enter the number of coins";
+
+/* Class = "UILabel"; text = "收币地址:"; ObjectID = "xYA-Wp-7WO"; */
+"xYA-Wp-7WO.text" = "Receipt address:";

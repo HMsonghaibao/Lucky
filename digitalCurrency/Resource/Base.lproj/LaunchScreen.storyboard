@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fya-qs-bPr"/>
+                        <viewControllerLayoutGuide type="bottom" id="0dC-3V-yDP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="启动页" translatesAutoresizingMaskIntoConstraints="NO" id="YT8-gI-yGA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-huite" translatesAutoresizingMaskIntoConstraints="NO" id="daf-6C-FnI">
+                                <rect key="frame" x="86.5" y="198" width="202.5" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="P5L-lf-88u"/>
+                                    <constraint firstAttribute="width" constant="202.5" id="gI4-IY-aeT"/>
+                                </constraints>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="xaU-AN-6M0">
+                                <rect key="frame" x="50" y="553" width="275" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="275" id="mRv-9d-W9F"/>
+                                    <constraint firstAttribute="height" constant="34" id="r0h-TD-PLc"/>
+                                </constraints>
+                            </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="全球领先的数字资产交易平台" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="suM-DI-E4S">
+                                <rect key="frame" x="61.5" y="558.5" width="252" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="daf-6C-FnI" firstAttribute="top" secondItem="fya-qs-bPr" secondAttribute="bottom" constant="178" id="3P4-nh-4pJ"/>
+                            <constraint firstItem="daf-6C-FnI" firstAttribute="centerX" secondItem="YT8-gI-yGA" secondAttribute="centerX" id="5XQ-X2-tw6"/>
+                            <constraint firstItem="0dC-3V-yDP" firstAttribute="top" secondItem="xaU-AN-6M0" secondAttribute="bottom" constant="80" id="6eP-Mj-Bfq"/>
+                            <constraint firstAttribute="bottom" secondItem="YT8-gI-yGA" secondAttribute="bottom" id="9Zw-zN-05x"/>
+                            <constraint firstItem="xaU-AN-6M0" firstAttribute="centerX" secondItem="YT8-gI-yGA" secondAttribute="centerX" id="AOS-Ba-xJJ"/>
+                            <constraint firstItem="suM-DI-E4S" firstAttribute="centerX" secondItem="xaU-AN-6M0" secondAttribute="centerX" id="J9D-IA-AI3"/>
+                            <constraint firstItem="suM-DI-E4S" firstAttribute="centerY" secondItem="xaU-AN-6M0" secondAttribute="centerY" id="LXo-hM-Rmd"/>
+                            <constraint firstAttribute="trailing" secondItem="YT8-gI-yGA" secondAttribute="trailing" id="MVj-Dp-oda"/>
+                            <constraint firstItem="YT8-gI-yGA" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Ru8-Z0-tdX"/>
+                            <constraint firstItem="YT8-gI-yGA" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="X5B-CL-vxE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo-huite" width="139" height="20"/>
+        <image name="rectangle" width="268" height="34"/>
+        <image name="启动页" width="375" height="667"/>
+    </resources>
+</document>

@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "温馨提示："; ObjectID = "EjQ-7K-ZEw"; */
+"EjQ-7K-ZEw.text" = "温馨提示：";
+
+/* Class = "UIButton"; normalTitle = "旋转"; ObjectID = "VHW-P1-2NW"; */
+"VHW-P1-2NW.normalTitle" = "旋转";
+
+/* Class = "UILabel"; text = "下方的旋转按钮可以调节照片方向"; ObjectID = "eoN-sk-UhH"; */
+"eoN-sk-UhH.text" = "下方的旋转按钮可以调节照片方向";
+
+/* Class = "UIButton"; normalTitle = "保存"; ObjectID = "fVp-13-rAU"; */
+"fVp-13-rAU.normalTitle" = "保存";
+
+/* Class = "UILabel"; text = "拖动边框可改变大小"; ObjectID = "fhS-Ne-Yiz"; */
+"fhS-Ne-Yiz.text" = "拖动边框可改变大小";

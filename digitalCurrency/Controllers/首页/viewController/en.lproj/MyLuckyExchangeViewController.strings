@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; normalTitle = "兑换"; ObjectID = "3LV-e9-ypA"; */
+"3LV-e9-ypA.normalTitle" = "Exchange";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "A7F-Ej-v7a"; */
+"A7F-Ej-v7a.text" = "0";
+
+/* Class = "UILabel"; text = "需要"; ObjectID = "Jxt-3c-AW8"; */
+"Jxt-3c-AW8.text" = "Need";
+
+/* Class = "UILabel"; text = "TV"; ObjectID = "KoN-UR-h3h"; */
+"KoN-UR-h3h.text" = "TV";
+
+/* Class = "UILabel"; text = "兑换数量:"; ObjectID = "S8J-tn-Mhq"; */
+"S8J-tn-Mhq.text" = "Redemption quantity:";
+
+/* Class = "UILabel"; text = "USDT"; ObjectID = "U93-7q-m4Y"; */
+"U93-7q-m4Y.text" = "USDT";
+
+/* Class = "UILabel"; text = "(可兑换USDT)"; ObjectID = "Y9n-7j-u5w"; */
+"Y9n-7j-u5w.text" = "(Convertible USDT)";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "dtr-vE-Ukd"; */
+"dtr-vE-Ukd.text" = "0";
+
+/* Class = "UITextField"; placeholder = "请输入要兑换的数量"; ObjectID = "nwn-B2-Rtr"; */
+"nwn-B2-Rtr.placeholder" = "Please enter the quantity to be redeemed";
+
+/* Class = "UILabel"; text = "1USDT=1VT"; ObjectID = "vPt-YY-3UN"; */
+"vPt-YY-3UN.text" = "1USDT=1VT";
